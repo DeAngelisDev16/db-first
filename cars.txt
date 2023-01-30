@@ -1,0 +1,15 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario:
+
+
+Nome tabella: auto usate;
+
+id ............................... intero ..................... BIGINT ......................... PRIMARY_KEY AUTO_INCREMENT
+casa_produttrice ................. stringa .................... VARCHAR(15) .................... NOTNULL 
+modello .......................... stringa .................... VARCHAR(20) .................... NOTNULL
+colore ........................... stringa .................... VARCHAR(15) .................... NULL
+anno_immatricolazione ............ date ....................... YEAR ........................... NOTNULL
+km_percorsi ...................... intero ..................... MEDIUMINT ...................... NOTNULL
+prezzo ........................... intero ..................... MEDIUMINT ..................... NOTNULL
+sinistri_stradali ................ intero ..................... TINYINT ....................... NULL
+manutenzione_ordinaria ........... stringa .................... VARCHAR(2) ..................... NOTNULL
+manutenzione_straordinaria ....... stringa .................... VARCHAR(2) ..................... NULL
